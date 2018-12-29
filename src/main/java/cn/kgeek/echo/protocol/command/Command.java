@@ -1,6 +1,6 @@
 package cn.kgeek.echo.protocol.command;
 
-import cn.kgeek.echo.protocol.packager.LoginRequestPacket;
+import cn.kgeek.echo.protocol.packager.request.LoginRequestPacket;
 import cn.kgeek.echo.protocol.packager.Packet;
 
 import java.util.HashMap;

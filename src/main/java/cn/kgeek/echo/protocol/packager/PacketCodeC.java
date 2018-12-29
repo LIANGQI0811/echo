@@ -20,7 +20,7 @@ public class PacketCodeC {
         serializerMap.put(serializer.getSerializerAlogrithm(), serializer);
     }
 
-    public static ByteBuf encode(Packet packet) {
+    public static ByteBuf encode(ByteBufAllocator byteBufAllocator,  Packet packet) {
         ByteBuf byteBuf = ByteBufAllocator.DEFAULT.ioBuffer();
         byteBuf.writeInt(MAGIC_NUMBER);
         byte[] bytes = Serializer.DEFAULT.serialize(packet);

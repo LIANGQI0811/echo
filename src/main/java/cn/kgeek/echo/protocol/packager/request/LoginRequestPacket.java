@@ -1,6 +1,7 @@
-package cn.kgeek.echo.protocol.packager;
+package cn.kgeek.echo.protocol.packager.request;
 
 import cn.kgeek.echo.protocol.command.Command;
+import cn.kgeek.echo.protocol.packager.Packet;
 import lombok.Data;
 
 @Data
